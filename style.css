@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
-.menu {
-    width: 25%;
-    float: left;
+.top-menu {
+    background-color: white;
 }
 
-.main {
-    width: 75%;
-    float: left;
+.first-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.second-image {
+    max-width: 100%;
+    height: auto;
 }
