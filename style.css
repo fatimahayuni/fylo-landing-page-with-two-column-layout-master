@@ -36,8 +36,24 @@ html {
     padding: 40px;
   }
 
+  /*todo*/
+.curved-mobile-background {
+  max-width: 100%;
+  height: auto;
+}
+
 .second-image {
     max-width: 100%;
     height: auto;
+}
+
+.second-header {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px 10px;
 }
 
