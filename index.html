@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<!--For the top menu-->
+<!--Top menu-->
 <nav class="top-menu">
   <nav class="navbar navbar-expand bg-body-tertiary">
     <div class="container-fluid">
@@ -40,8 +40,8 @@
   </nav>
 </nav>
 
-<!--For the first image-->
 <main>
+  <!--First image-->
   <picture>
       <img 
       src="./images/illustration-1.svg" alt="first-image" class="first-image"/>
@@ -61,7 +61,13 @@
 
   <!--For the Get Started Form-->
   <section class="get-started-form">
-  Get Started
+    <form>
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <button type="submit" class="btn btn-primary">Get Started</button>
+    </form>
   </section>  
 
   <!--For the second image-->
@@ -71,6 +77,7 @@
     <svg width="" height="" xlmns></svg>
   </picture>
 
+  <!--Second header-->
   <section> 
     <!--For the second header-->
     <div class="second-header">Stay productive, wherever you are</div>
@@ -116,8 +123,8 @@
   </section>
 </main>
 
-<!--For the bottom menu-->
-<section class="bottom-menu">
+<!--Bottom menu-->
+<nav class="bottom-menu">
   <section class="logo"></section>
 
   <div>
@@ -133,9 +140,9 @@
   Terms
   Privacy
   </div>
-</section> 
+</nav> 
 
-<!--The footer section-->
+<!--Footer section-->
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

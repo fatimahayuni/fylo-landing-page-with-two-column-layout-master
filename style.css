@@ -20,7 +20,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     text-align: center;
     padding: 10px 10px;
   }
@@ -32,7 +32,7 @@ html {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    font-size: 16px;
+    font-size: 1.1rem;
     padding: 40px;
   }
 
