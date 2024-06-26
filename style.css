@@ -57,3 +57,7 @@ html {
   padding: 10px 10px;
 }
 
+.phone-icon {
+  max-width: 100%;
+  height: auto;
+}
