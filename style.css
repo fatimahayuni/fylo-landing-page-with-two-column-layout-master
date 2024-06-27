@@ -34,6 +34,11 @@ html {
   height: auto;
 }
 
+.email-icon {
+  max-width: 100%;
+  height: auto;
+}
+
 .how-fylo-works {
   background-color: hsl(240, 75%, 98%);
 }
@@ -92,6 +97,10 @@ html {
 
 .font-size-small {
   font-size:0.7rem;
+}
+
+.form-border{
+  border: 1px solid black;
 }
 
 

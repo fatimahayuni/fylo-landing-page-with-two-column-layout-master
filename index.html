@@ -6,10 +6,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
   ">
+    <link rel="stylesheet" href="style.css">
+
 
   <!--Google fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +23,7 @@
 <body>
 
 <!--Top menu-->
-<nav class="navbar navbar-expand bg-body-tertiary py-0">
+<nav class="navbar navbar-expand bg-body-tertiary py-5">
   <div class="container-fluid justify-content-between top-menu">
     <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid"></a>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -42,12 +43,11 @@
 
 <main>
   <!--First image-->
-  <div class="container mt-5">
+  <div class="container my-5">
     <img src="./images/illustration-1.svg" class="img-fluid" alt="...">
   </div>
  
-
-  <!--For the first header-->
+  <!--First header: "All your files in one secure..."-->
   <section class="first-header">
     <div>All your files in one secure location, accessible anywhere.</div>
 
@@ -62,16 +62,16 @@
   <!--1st Get Started Form-->
   <form class="d-flex justify-content-center flex-wrap">
     <div class="mb-3 w-75">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+      <input type="email" class="form-control p-3 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
     </div>
 
-    <button type="submit" class="btn btn-primary px-5 w-75 mb-5">Get Started</button>
+    <button type="submit" class="btn btn-primary px-5 w-75 mb-5 p-2">Get Started</button>
   </form>
 
   <!--For the curved top background-->
   <section>
   <div class="container-fluid p-0">
-    <img src="./images/bg-curve-mobile.svg" class="img-fluid w-100" alt="...">
+    <img src="./images/bg-curve-mobile.svg" class="img-fluid w-100 mt-5" alt="...">
   </div>
   </section>
 
@@ -114,16 +114,16 @@
     </div>
   </section>
 
-  <!--Another second header but different color-->
+  <!--Second header: "Get early access today..."-->
   <section>
-    <div class="second-header background-color-purple font-color-white">
+    <div class="second-header background-color-purple font-color-white pt-5">
       Get early access today
     </div>
   </section>
 
-  <!--Another main text but different color.-->
+  <!--Main text: "It only takes a minute..."-->
   <section>
-    <div class="main-text background-color-purple font-color-white">
+    <div class="main-text background-color-purple font-color-white pt-3">
       It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
       </div>
   </section>
@@ -134,27 +134,27 @@
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
     </div>
 
+    <!--todo add another div for purple color to make the div bigger-->
     <button type="submit" class="btn btn-primary px-5 w-75 mb-5">Get Started For Free</button>
   </form>
 </main>
 
-<!--Logo at the footer section-->
-<section class="background-color-dark-blue">
-  <img src="./images/logo white.svg" class="img-fluid">
-</section>
 
 <!--Email and phone section-->
-<section>
+  <!--Logo at the footer section-->
+  <div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5 ms-5"></div>
+
+  <!--Phone section-->
   <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-    <div class="phone-icon"><img src="./images/icon-phone.svg"></div>
+    <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
     <div>+1-543-123-4567</div>
   </div>
 
+  <!--Email section-->
   <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-    <div><img src="./images/icon-email.svg"></div>
+    <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
     <div> example@fylo.com</div>
   </div>
-</section>
 
 <!--Bottom menu-->
 <nav class="bottom-menu">
