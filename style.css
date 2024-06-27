@@ -73,8 +73,8 @@ html {
   font-size: 1.3rem;
   text-align: center;
   padding: 10px 10px;
-  
 }
+
 .background-color-purple {
   background-color: hsl(238, 22%, 44%);
 }
@@ -83,8 +83,13 @@ html {
   background-color: hsl(240, 75%, 98%);
 }
 
+.background-color-dark-blue {
+  background-color: hsl(243, 87%, 12%);
+}
+
 .font-color-white {
   color: white;
 }
+
 
 
