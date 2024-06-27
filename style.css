@@ -29,16 +29,41 @@ html {
     padding: 10px 10px;
   }
 
+.phone-icon {
+  max-width: 100%;
+  height: auto;
+}
+
+.how-fylo-works {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.testimonial {
+  background-color: hsl(240, 75%, 98%);
+}
+
+/* .card-border {
+  border: 0;
+} */
+
 .main-text {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-    font-size: 1.1rem;
-    padding: 40px;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 1.1rem;
+  padding: 40px;
+}
+
+.main-text-background-color-purple {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.background-color-whitepurple {
+  background-color: hsl(240, 75%, 98%);
+}
 
 .second-header {
   font-family: "Raleway", sans-serif;
@@ -48,9 +73,18 @@ html {
   font-size: 1.3rem;
   text-align: center;
   padding: 10px 10px;
+  
+}
+.background-color-purple {
+  background-color: hsl(238, 22%, 44%);
 }
 
-.phone-icon {
-  max-width: 100%;
-  height: auto;
+.background-color-whitepurple {
+  background-color: hsl(240, 75%, 98%);
 }
+
+.font-color-white {
+  color: white;
+}
+
+
