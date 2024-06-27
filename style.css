@@ -74,13 +74,12 @@ html {
   text-align: center;
   padding: 10px 10px;
 }
+.background-color-whitepurple {
+  background-color: hsl(240, 75%, 98%);
+}
 
 .background-color-purple {
   background-color: hsl(238, 22%, 44%);
-}
-
-.background-color-whitepurple {
-  background-color: hsl(240, 75%, 98%);
 }
 
 .background-color-dark-blue {
