@@ -15,6 +15,10 @@ html {
     height: auto;
 } */
 
+.second-image {
+  background-color: hsl(240, 75%, 98%) ;
+}
+
 .first-header {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
