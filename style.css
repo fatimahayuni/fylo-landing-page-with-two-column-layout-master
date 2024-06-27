@@ -10,10 +10,10 @@ html {
     background-color: white;
 }
 
-.first-image {
+/* .first-image, .second-image, .curved-mobile-background {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .first-header {
     font-family: "Raleway", sans-serif;
@@ -35,17 +35,6 @@ html {
     font-size: 1.1rem;
     padding: 40px;
   }
-
-  /*todo*/
-.curved-mobile-background {
-  max-width: 100%;
-  height: auto;
-}
-
-.second-image {
-    max-width: 100%;
-    height: auto;
-}
 
 .second-header {
   font-family: "Raleway", sans-serif;

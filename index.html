@@ -22,10 +22,10 @@
 <body>
 
 <!--Top menu-->
-<nav class="navbar navbar-expand bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="./images/logo.svg"></a>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand bg-body-tertiary d-flex justify-content-center">
+  <div class="container-fluid justify-content-between">
+    <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid"></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-9">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Features</a>
         </li>
@@ -60,14 +60,12 @@
   </section>
 
   <!--1st Get Started Form-->
-  <form class="justify-content-center">
-    <div class="mb-3  w-75">
+  <form class="d-flex justify-content-center flex-wrap">
+    <div class="mb-3 w-75">
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
     </div>
 
-    <div>
-      <button type="submit" class="btn btn-primary">Get Started For Free</button>
-  </div>
+    <button type="submit" class="btn btn-primary">Get Started For Free</button>
   </form>
 
 
@@ -132,14 +130,13 @@
   </section>
 
   <!--Another "Get Started Form"-->
-  <section class="get-started-form">
-    <form>
-      <div class="mb-3">
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
-      </div>
-      <button type="submit" class="btn btn-primary">Get Started For Free</button>
-    </form>
-  </section>  
+  <form class="d-flex justify-content-center flex-wrap">
+    <div class="mb-3 w-75">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Get Started For Free</button>
+  </form> 
 </main>
 
 <!--Logo at the footer section-->
