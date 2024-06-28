@@ -23,177 +23,190 @@
 <body>
 
 <!--Top menu-->
-<nav class="navbar navbar-expand bg-body-tertiary py-5 background-color-white">
-  <div class="container-fluid justify-content-between background-color-white">
-    <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid background-color-white"></a>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 background-color-white">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sign In</a>
-        </li>
-        </li>
-      </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand bg-body-tertiary py-5 background-color-white">
+    <div class="container-fluid justify-content-between background-color-white">
+      <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid background-color-white"></a>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 background-color-white">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+          </li>
+        </ul>
+    </div>
+  </nav>
 
-<main>
+  <main>
 
-<!--The FIRST main row with 2 columns-->
-<section>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-       <!--First header: "All your files in one secure..."-->
-        <div class="first-header">All your files in one secure location, accessible anywhere.</div>
+  <!--The FIRST main row with 2 columns-->
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-6">
+          <!--First header: "All your files in one secure..."-->
+            <div class="first-header">All your files in one secure location, accessible anywhere.</div>
 
-        <div class="main-text">
-        Fylo stores your most important files in one secure location. 
-        Access them wherever you need, share and collaborate with friends, 
-        family, and co-workers.
+            <div class="main-text">
+            Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.
+            </div>
+
+            <!--1st Get Started Form-->
+            <form class="d-flex justify-content-center flex-wrap">
+              <div class="mb-3 w-75">
+                <input type="email" class="form-control p-3 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+              </div>
+
+              <button type="submit" class="btn btn-primary px-5 w-75 mb-5 p-2">Get Started</button>
+            </form>
+          </div>
+          <div class="col-sm-6">
+            <div class="container my-5">
+              <img src="./images/illustration-1.svg" class="img-fluid" alt="...">
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!--1st Get Started Form-->
-        <form class="d-flex justify-content-center flex-wrap">
-          <div class="mb-3 w-75">
-            <input type="email" class="form-control p-3 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+    <!--The curved top background-->
+    <div class="container-fluid p-0">
+        <img src="./images/bg-curve-mobile.svg" class="img-fluid w-100 mt-5" alt="...">
+    </div>
+
+    <!--The SECOND main row with 2 columns-->
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-6">
+              <!--Second header. "Stay productive, wherever you are"-->
+
+              <!--For the second header-->
+              <div class="second-header py-5 pb-2 background-color-whitepurple">Stay productive, wherever you are</div>
+
+              <!--For the main text-->
+              <div class="main-text background-color-whitepurple">
+              Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.<br><br>
+
+              Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!
+              </div>
+
+              <!--For "How Fylo Works" section-->
+              <div class="how-fylo-works">
+              See how Fylo works
+              </div>
+
+              <!--Testimonial section-->
+              <div class="card">
+                <div class="card-body testimonial card-border">
+                  <blockquote class="blockquote mb-0">
+                    <p>  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine..</p>
+                    <footer class="blockquote-footer">Kyle Burton <cite title="Source Title">Founder & CEO, Huddle</cite></footer>
+                  </blockquote>
+        </div>
+      </div>
+          </div>
+          <!--For the second image-->
+          <div class="col-sm-6">
+            <div class="container container-fluid second-image">
+              <img src="./images/illustration-2.svg" class="img-fluid pb-5" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--The THIRD main row with 2 columns-->
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <!--Second header: "Get early access today..."-->
+            <div class="second-header background-color-purple font-color-white pt-5">
+                Get early access today
+            </div>
+            <!--Main text: "It only takes a minute..."-->
+            <div class="main-text background-color-purple font-color-white pt-3">
+              It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <!--Second "Get Started Form"-->
+            <form class="d-flex justify-content-center flex-wrap background-color-purple">
+              <div class="mb-3 w-75">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+              </div>
+
+              <!--todo add another div for purple color to make the div bigger-->
+              <button type="submit" class="btn btn-primary px-5 w-75 mb-5">Get Started For Free</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Bottom menu-->
+  <section>
+    <div class="container mt-5">
+      <div class="row">
+
+        <!--1st/4 of bottom menu-->
+        <div class="col-sm-3">
+          <!--Logo at the footer section-->
+          <div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5 ms-5"></div>
+
+          <!--Phone section-->
+          <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+            <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
+            <div>+1-543-123-4567</div>
           </div>
 
-          <button type="submit" class="btn btn-primary px-5 w-75 mb-5 p-2">Get Started</button>
-        </form>
-      </div>
-      <div class="col-sm-6">
-        <div class="container my-5">
-          <img src="./images/illustration-1.svg" class="img-fluid" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--The curved top background-->
-<div class="container-fluid p-0">
-    <img src="./images/bg-curve-mobile.svg" class="img-fluid w-100 mt-5" alt="...">
-</div>
-
-<!--The SECOND main row with 2 columns-->
-<section>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-           <!--Second header. "Stay productive, wherever you are"-->
-
-          <!--For the second header-->
-          <div class="second-header py-5 pb-2 background-color-whitepurple">Stay productive, wherever you are</div>
-
-          <!--For the main text-->
-          <div class="main-text background-color-whitepurple">
-          Never let location be an issue when accessing your files. Fylo has you 
-          covered for all of your file storage needs.<br><br>
-
-          Securely share files and folders with friends, family and colleagues for 
-          live collaboration. No email attachments required!
+          <!--Email section-->
+          <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+            <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
+            <div> example@fylo.com</div>
           </div>
+        </div>
 
-          <!--For "How Fylo Works" section-->
-          <div class="how-fylo-works">
-          See how Fylo works
+        <!--2nd/4 of bottom menu-->
+        <div class="col-sm-3">
+          <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
+            <div class="p-2">About Us</div>
+            <div class="p-2">Jobs</div>
+            <div class="p-2">Press</div>
+            <div class="p-2">Blog</div>
           </div>
+        </div>
 
-          <!--Testimonial section-->
-          <div class="card">
-            <div class="card-body testimonial card-border">
-              <blockquote class="blockquote mb-0">
-                <p>  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine..</p>
-                <footer class="blockquote-footer">Kyle Burton <cite title="Source Title">Founder & CEO, Huddle</cite></footer>
-              </blockquote>
-    </div>
-  </div>
-      </div>
-      <!--For the second image-->
-      <div class="col-sm-6">
-        <div class="container container-fluid second-image">
-          <img src="./images/illustration-2.svg" class="img-fluid pb-5" alt="...">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--The THIRD main row with 2 columns-->
-<section>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-        <!--Second header: "Get early access today..."-->
-        <div class="second-header background-color-purple font-color-white pt-5">
-            Get early access today
-        </div>
-        <!--Main text: "It only takes a minute..."-->
-        <div class="main-text background-color-purple font-color-white pt-3">
-          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <!--Second "Get Started Form"-->
-        <form class="d-flex justify-content-center flex-wrap background-color-purple">
-          <div class="mb-3 w-75">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+        <!--3rd/4 of bottom menu-->
+        <div class="col-sm-3">
+          <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
+            <div class="p-2">Contact Us</div>
+            <div class="p-2">Terms</div>
+            <div class="p-2">Privacy</div>
           </div>
+        </div>
 
-          <!--todo add another div for purple color to make the div bigger-->
-          <button type="submit" class="btn btn-primary px-5 w-75 mb-5">Get Started For Free</button>
-        </form>
+        <div class="col-sm-3">
+          <!--4th/4 of bottom menu: Social media icons-->
+            <div class="d-flex flex-row mb-0 justify-content-center main-text font-color-white background-color-dark-blue">
+              <div class="p-2">FB</div>
+              <div class="p-2">TW</div>
+              <div class="p-2">IG</div>
+            </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-</main>
-
-<!--Logo at the footer section-->
-<div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5 ms-5"></div>
-
-<!--Phone section-->
-<div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-  <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
-  <div>+1-543-123-4567</div>
-</div>
-
-<!--Email section-->
-<div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-  <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
-  <div> example@fylo.com</div>
-</div>
-
-<!--Bottom menu-->
-<nav class="bottom-menu">
-  <div>
-    <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
-      <div class="p-2">About Us</div>
-      <div class="p-2">Jobs</div>
-      <div class="p-2">Press</div>
-      <div class="p-2">Blog</div>
-  </div>
-
-  <div>
-    <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
-      <div class="p-2">Contact Us</div>
-      <div class="p-2">Terms</div>
-      <div class="p-2">Privacy</div>
-    </div>
-  </div>
-
-  <!--Social media icons-->
-  <div class="d-flex flex-row mb-0 justify-content-center main-text font-color-white background-color-dark-blue">
-    <div class="p-2">FB</div>
-    <div class="p-2">TW</div>
-    <div class="p-2">IG</div>
-  </div>
-</nav> 
+  </section>
 
 <!--Footer section-->
   <footer>
