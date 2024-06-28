@@ -23,10 +23,10 @@
 <body>
 
 <!--Top menu-->
-<nav class="navbar navbar-expand bg-body-tertiary py-5">
-  <div class="container-fluid justify-content-between top-menu">
-    <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid"></a>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand bg-body-tertiary py-5 background-color-white">
+  <div class="container-fluid justify-content-between background-color-white">
+    <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid background-color-white"></a>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 background-color-white">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Features</a>
         </li>
@@ -42,45 +42,50 @@
 </nav>
 
 <main>
-  <!--First image-->
-  <div class="container my-5">
-    <img src="./images/illustration-1.svg" class="img-fluid" alt="...">
+<!--The first main row with 2 columns-->
+<section>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-6">
+       <!--First header: "All your files in one secure..."-->
+        <div class="first-header">All your files in one secure location, accessible anywhere.</div>
+
+        <div class="main-text">
+        Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.
+        </div>
+
+        <!--1st Get Started Form-->
+        <form class="d-flex justify-content-center flex-wrap">
+          <div class="mb-3 w-75">
+            <input type="email" class="form-control p-3 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+          </div>
+
+          <button type="submit" class="btn btn-primary px-5 w-75 mb-5 p-2">Get Started</button>
+        </form>
+      </div>
+      <div class="col-sm-6">
+        <div class="container my-5">
+          <img src="./images/illustration-1.svg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
   </div>
- 
-  <!--First header: "All your files in one secure..."-->
-  <section class="first-header">
-    <div>All your files in one secure location, accessible anywhere.</div>
+</section>
 
-    <!--For the main text-->
-    <div class="main-text">
-    Fylo stores your most important files in one secure location. 
-    Access them wherever you need, share and collaborate with friends, 
-    family, and co-workers.
-    </div>
-  </section>
-
-  <!--1st Get Started Form-->
-  <form class="d-flex justify-content-center flex-wrap">
-    <div class="mb-3 w-75">
-      <input type="email" class="form-control p-3 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
-    </div>
-
-    <button type="submit" class="btn btn-primary px-5 w-75 mb-5 p-2">Get Started</button>
-  </form>
-
-  <!--For the curved top background-->
-  <section>
-  <div class="container-fluid p-0">
+<!--The curved top background-->
+<div class="container-fluid p-0">
     <img src="./images/bg-curve-mobile.svg" class="img-fluid w-100 mt-5" alt="...">
-  </div>
-  </section>
+</div>
 
+<section>
   <!--For the second image-->
   <section class="container-fluid second-image">
     <div class="container">
       <img src="./images/illustration-2.svg" class="img-fluid pb-5" alt="...">
     </div>
-    </section>
+  </section>
 
   <!--Second header. "Stay productive, wherever you are"-->
   <section> 
@@ -113,6 +118,7 @@
       </div>
     </div>
   </section>
+</section>
 
   <!--Second header: "Get early access today..."-->
   <section>
@@ -139,22 +145,20 @@
   </form>
 </main>
 
+<!--Logo at the footer section-->
+<div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5 ms-5"></div>
 
-<!--Email and phone section-->
-  <!--Logo at the footer section-->
-  <div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5 ms-5"></div>
+<!--Phone section-->
+<div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+  <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
+  <div>+1-543-123-4567</div>
+</div>
 
-  <!--Phone section-->
-  <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-    <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
-    <div>+1-543-123-4567</div>
-  </div>
-
-  <!--Email section-->
-  <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
-    <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
-    <div> example@fylo.com</div>
-  </div>
+<!--Email section-->
+<div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+  <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
+  <div> example@fylo.com</div>
+</div>
 
 <!--Bottom menu-->
 <nav class="bottom-menu">
