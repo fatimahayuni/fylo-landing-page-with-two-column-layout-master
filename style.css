@@ -25,8 +25,9 @@ html {
     font-weight: 700;
     font-style: normal;
     font-size: 2.0rem;
-    text-align: center;
-    padding: 10px 10px;
+    text-align: left;
+    padding: 10px 0px;
+    margin:0;
   }
 
 .phone-icon {
@@ -59,7 +60,9 @@ html {
   font-variation-settings:
     "wdth" 100;
   font-size: 1.1rem;
-  padding: 40px;
+  padding: 10px 0px;
+  text-align: left;
+  margin:0;
 }
 
 .main-text-background-color-purple {
