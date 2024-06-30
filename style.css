@@ -106,5 +106,6 @@ html {
   border: 1px solid black;
 }
 
-
-
+input.form-control.text-pink {
+  color: pink;
+}

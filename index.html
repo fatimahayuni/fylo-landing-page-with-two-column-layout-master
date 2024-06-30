@@ -24,33 +24,40 @@
 </head>
 <body>
 
-<!--Top menu-->
-  <nav class="navbar navbar-expand bg-body-tertiary p-0">
-    <div class="container-fluid justify-content-between background-color-white">
-      <a class="navbar-brand col-3 px-5 mt-5 pb-5 py-4" href="#"><img src="./images/logo.svg" class="img-fluid background-color-white"></a>
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 background-color-white px-5">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sign In</a>
-          </li>
-          </li>
-        </ul>
+
+<!--Correct navbar-->
+<div class="container pt-5">
+  <div class="container-fluid">
+      <img class="navbar-brand float-start img-fluid" href="#" src="./images/logo.svg" style="width:150px;"></a>
     </div>
-  </nav>
+    <ul class="nav justify-content-end float-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign In</a>
+      </li>
+    </ul>
+  </div>
+<!--Top menu-->
+  <div class="container-fluid navbar navbar-expand bg-body-tertiary p-0 justify-content-between">
+    <div class="container-fluid justify-content-between background-color-white">
+     
+    </div>
+  </div>
+
 
   <main>
   <!--The FIRST main row with 2 columns-->
     <section>
       <div class="container mt-0">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6 mt-5 ">
           <!--First header: "All your files in one secure..."-->
-            <div class="first-header ps-0 mx-0 my-0">All your files in one secure location, accessible anywhere.</div>
+            <div class="first-header ps-0 mx-0 mb-2">All your files in one secure location, accessible anywhere.</div>
 
             <div class="main-text my-0 mx-0 pt-0">
             Fylo stores your most important files in one secure location. 
@@ -59,9 +66,9 @@
             </div>
 
             <!--1st Get Started Form-->
-            <form class="row d-flex flex-wrap">
+            <form class="row d-flex flex-wrap mt-3">
               <div class="col-sm-auto col-md-7">
-                <input type="email" class="form-control p-2 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
+                <input type="email" class="form-control text-pink p-2 form-border" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email...">
               </div>
               <div class="col-sm-auto col-md-5">
                 <button type="submit" class="btn btn-primary w-100 p-2 my-3 my-md-0">Get Started</button>
