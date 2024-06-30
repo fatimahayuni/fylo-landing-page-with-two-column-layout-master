@@ -25,7 +25,7 @@
 <body>
 
 <!--Top menu-->
-<div>
+<div class="background-color-white">
   <nav class="navbar navbar-expand bg-body-tertiary py-5">
     <div class="container-fluid justify-content-between background-color-white mx-5">
       <a class="navbar-brand col-3" href="#"><img src="./images/logo.svg" class="img-fluid background-color-white"></a>
@@ -160,42 +160,57 @@
   </main>
 
   <!--Bottom menu-->
-  <div class="row background-color-dark-blue">
-  
-    <div class="col-sm-3 p-3 text-white">
-      <ul class="list-group list-group list-group-flush">
-        <li class="list-group-item">Phone</li>
-        <li class="list-group-item">Email</li>
-      </ul>
+  <section class="background-color-dark-blue">
+    <div class="container mt-0">
+      <div class="row">
+        <!--Logo at the footer section-->
+          <div class="background-color-dark-blue"><img src="./images/logo white.svg" class="img-fluid background-color-dark-blue mt-5"></div>
+        <!--1st/4 of bottom menu-->
+        <div class="col-sm-3">
+
+
+          
+
+
+          <!--Phone section-->
+          <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+            <div class="phone-icon pe-4"><img src="./images/icon-phone.svg"></div>
+            <div>+1-543-123-4567</div>
+          </div>
+          <!--Email section-->
+          <div class="d-flex flex-row mb-0 main-text font-color-white background-color-dark-blue pb-0">
+            <div class="email-icon pe-4"><img src="./images/icon-email.svg"></div>
+            <div> example@fylo.com</div>
+          </div>
+        </div>
+        <!--2nd/4 of bottom menu-->
+        <div class="col-sm-3">
+          <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
+            <div class="p-2">About Us</div>
+            <div class="p-2">Jobs</div>
+            <div class="p-2">Press</div>
+            <div class="p-2">Blog</div>
+          </div>
+        </div>
+        <!--3rd/4 of bottom menu-->
+        <div class="col-sm-3">
+          <div class="d-flex flex-column mb-0 main-text font-color-white background-color-dark-blue">
+            <div class="p-2">Contact Us</div>
+            <div class="p-2">Terms</div>
+            <div class="p-2">Privacy</div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <!--4th/4 of bottom menu: Social media icons-->
+            <div class="d-flex flex-row mb-0 justify-content-center main-text font-color-white background-color-dark-blue">
+              <div class="p-2"><img src="./images/facebook.png" width="40px" height="40px"></div>
+              <div class="p-2"><img src="./images/twitter.png" width="40px" height="40px"></div>
+              <div class="p-2"><img src="./images/instagram.png" width="40px" height="40px"></div>
+            </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="col-sm-3 p-3 text-white bg-color">
-      <ul class="list-group list-group list-group-flush">
-        <li class="list-group-item">About Us</li>
-        <li class="list-group-item">Jobs</li>
-        <li class="list-group-item">Press</li>
-        <li class="list-group-item">Blog</li>
-      </ul>
-    </div>
-    
-    <div class="col-sm-3 p-3 text-white">
-      <ul class="list-group list-group list-group-flush">
-        <li class="list-group-item">Contact Us</li>
-        <li class="list-group-item">Terms</li>
-        <li class="list-group-item">Privacy</li>
-      </ul>
-    </div>
-    
-    <div class="col-sm-3 p-3 text-white">
-      <ul class="list-group list-group-horizontal list-group-flush">
-        <li class="list-group-item">FB</li>
-        <li class="list-group-item">TW</li>
-        <li class="list-group-item">IG</li>
-      </ul>
-    </div>
-    
-  </div>
-</div>
+  </section>
 
 </body>
 </html>
