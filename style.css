@@ -61,7 +61,7 @@ html {
     "wdth" 100;
   font-size: 1.1rem;
   padding: 10px 0px;
-  text-align: left;
+  /* text-align: auto; */
   margin:0;
 }
 
