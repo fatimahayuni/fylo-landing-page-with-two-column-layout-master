@@ -61,8 +61,11 @@ html {
     "wdth" 100;
   font-size: 1.1rem;
   padding: 10px 0px;
-  /* text-align: auto; */
   margin:0;
+}
+
+.green-text {
+  color: green;
 }
 
 .main-text-background-color-purple {
@@ -119,4 +122,16 @@ input.form-control.text-pink {
 
 .links {
   color: hsl(0, 0%, 75%);
+}
+
+.fylo-green-border {
+  border: green;
+}
+
+.span {
+  display: inline;
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  background-color: white;
 }
