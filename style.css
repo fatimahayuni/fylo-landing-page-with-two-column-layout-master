@@ -109,3 +109,14 @@ html {
 input.form-control.text-pink {
   color: pink;
 }
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.links {
+  color: hsl(0, 0%, 75%);
+}
